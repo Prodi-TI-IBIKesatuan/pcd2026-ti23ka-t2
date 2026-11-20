@@ -6,17 +6,17 @@ kelas: ti23ka
 topik: t2
 anggota:
   - github: LuthfiMayoga44
-    nama: "Lutfi"
-    peran: "klasik"
+    nama: "[Luthfi]"
+    peran: "[Metode klasik 2 dan 3]"
   - github: Codered777-dev
-    nama: "Adi"
-    peran: "evaluasi"
+    nama: "[Adi]"
+    peran: "[Evaluasi dan demo]"
   - github: danifahdluu
-    nama: "Dani"
-    peran: "data"
+    nama: "[Dani]"
+    peran: "[Data & Anotasi]"
   - github: Gunturpurnama802
-    nama: "Guntur"
-    peran: "klasik"
+    nama: "[Guntur]"
+    peran: "[Preprocessing + metode klasik 1]"
   - github: azissaputr
-    nama: "Egi"
-    peran: "modern"
+    nama: "[Egi]"
+    peran: "[Metode modern]"
