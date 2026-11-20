@@ -7,16 +7,16 @@ topik: t2
 anggota:
   - github: LuthfiMayoga44
     nama: "[Luthfi]"
-    peran: "[isi]"
+    peran: "[Metode klasik 2 dan 3]"
   - github: Codered777-dev
-    nama: "[Adi s"
-    peran: "[isi]"
+    nama: "[Adi]"
+    peran: "[Evaluasi dan demo]"
   - github: danifahdluu
     nama: "[Dani]"
-    peran: "[isi]"
+    peran: "[Data & Anotasi]"
   - github: Gunturpurnama802
     nama: "[Guntur]"
-    peran: "[isi]"
+    peran: "[Preprocessing + metode klasik 1]"
   - github: azissaputr
     nama: "[Egi]"
-    peran: "[isi]"
+    peran: "[Metode modern]"
