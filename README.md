@@ -4,7 +4,7 @@ Proyek kelompok **Pengolahan Citra Digital 2026** · kelas `ti23ka` · topik **T
 
 [![Cek proyek](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t2/actions/workflows/cek-proyek.yml/badge.svg)](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t2/actions/workflows/cek-proyek.yml)
 
-**Lingkup kelompok kami:** [isi: satu kalimat, mis. "lingkungan jalan"]
+**Lingkup kelompok kami:** Perbaikan citra malam hari dan pencahayaan rendah pada area jalan raya, perumahan, fasilitas umum, dan lingkungan sekitar kampus.
 
 Memperbaiki pencahayaan dan keseimbangan warna foto yang diambil dalam kondisi gelap. Anggota dan perannya ada di [ANGGOTA.yml](ANGGOTA.yml); cara kerja kelompok ada di [PANDUAN.md](PANDUAN.md).
 
@@ -19,10 +19,10 @@ Memperbaiki pencahayaan dan keseimbangan warna foto yang diambil dalam kondisi g
 
 ## Dataset (Tahap 1)
 
-- Jumlah citra: [isi, minimal 250]
-- Foto sendiri: [isi, minimal 75, 15 per anggota]
-- Sumber data tambahan dan lisensinya: [isi, atau tulis "tidak ada"]
-- Langkah preprocessing: [isi, ringkas dan berurutan]
+- Jumlah citra: 250 pasang citra gelap–terang (total 250 citra)
+- Foto sendiri: 75 citra malam (Lutfi 15, Dani 15, Guntur 15, Adi 15, Egi 15)
+- Sumber data tambahan dan lisensinya: LOL Dataset (Low-Light Dataset, lisensi riset akademis non-komersial)
+- Langkah preprocessing: Penyeragaman resolusi citra menjadi 512×512 piksel dengan interpolasi INTER_AREA, konversi ruang warna BGR ke LAB, serta pemisahan kanal luminans (L) dan krominans (A, B) tanpa modifikasi.
 
 Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.md). Contoh sebelum–sesudah ada di [outputs/figures/](outputs/figures/).
 
@@ -51,4 +51,5 @@ Tuliskan setiap kode, model, dataset, atau bantuan AI yang dipakai beserta sumbe
 
 | Yang dipakai | Sumber | Dipakai untuk |
 | --- | --- | --- |
-| [isi] | [isi] | [isi] |
+| LOL Dataset | Wei et al. (2018), BMVC / Hugging Face | Dataset benchmark low-light enhancement|
+| Claude | Anthropic | Bantuan asistensi analisis dataset, preprocessing, dan validasi kode|
